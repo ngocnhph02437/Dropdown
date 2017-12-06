@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5wE-Yg-wx2" customClass="SectionFormCell" customModule="Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4MS-z4-z5S">
+                    <rect key="frame" x="10" y="49" width="355" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ddt-M2-Cfq"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWV-4C-GfQ">
+                    <rect key="frame" x="10" y="17" width="355" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.46994552464916328" blue="0.014079046140314855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4MS-z4-z5S" secondAttribute="trailing" constant="10" id="3Q9-bu-Ire"/>
+                <constraint firstItem="RWV-4C-GfQ" firstAttribute="leading" secondItem="5wE-Yg-wx2" secondAttribute="leading" constant="10" id="Aqg-GA-OBQ"/>
+                <constraint firstAttribute="trailing" secondItem="RWV-4C-GfQ" secondAttribute="trailing" constant="10" id="Knz-OJ-mwM"/>
+                <constraint firstItem="RWV-4C-GfQ" firstAttribute="centerY" secondItem="5wE-Yg-wx2" secondAttribute="centerY" id="MbD-lz-nbm"/>
+                <constraint firstAttribute="bottom" secondItem="4MS-z4-z5S" secondAttribute="bottom" id="S3s-OM-J0T"/>
+                <constraint firstItem="RWV-4C-GfQ" firstAttribute="centerX" secondItem="5wE-Yg-wx2" secondAttribute="centerX" id="cPH-z6-drz"/>
+                <constraint firstItem="4MS-z4-z5S" firstAttribute="leading" secondItem="5wE-Yg-wx2" secondAttribute="leading" constant="10" id="wQn-Hs-IJ2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblSection" destination="RWV-4C-GfQ" id="gGe-Y9-rEn"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="676"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Line.jpg" width="1280" height="1"/>
+    </resources>
+</document>

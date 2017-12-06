@@ -1,0 +1,25 @@
+{
+    "data": {
+        
+        
+        "basic": [
+                  {
+                  "firstname": "Firstname *",
+                  "lastname": "Lastname *",
+                  "address": "Address *",
+                  "phone": "Mobile Phone *",
+                  "nric" : "NRIC *"
+                  }
+                  ],
+        "service": [{
+                    "name": "Category *",
+                    }, {
+                    "name": "Service Type *",
+                    }],
+        "location": [{
+                     "name": "Location *",
+                     }]
+    },
+    "error": 0,
+    "message": "Success"
+}

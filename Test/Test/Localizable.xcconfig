@@ -1,0 +1,20 @@
+//
+//  Localizable.xcconfig
+//  Test
+//
+//  Created by Nguyen Huu Ngoc on 12/6/17.
+//  Copyright © 2017 Nguyen Huu Ngoc. All rights reserved.
+//
+"section_title_basic" = "Basic Information";
+"section_title_service" = "Service & Repair Capabilities";
+"section_title_location" = "Preferred Job Location";
+
+"row_fullname_title" = "Address *";
+"row_address_title" = "Address *";
+"row_phone_title" = "Mobile phone *";
+"row_nric_title" = "NRIC *";
+
+
+"dropdown_category_title" = "Category *";
+"dropdown_service_type_title" = "Service Type *";
+"dropdown_location_title" = "Location *";
